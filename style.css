@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    background-color: #619DA1;
+}
+
+#container{
+   text-align: center;
+}
+
+#container h2{
+    line-height: 30vh;
+    font-size: 80px;
+}
+
+#container input{
+    padding: 5px;
+    border-radius: 15%;
+    outline: none;
+    text-align: center;
+    color: #D8143D;
+    font-weight: 500;
+}
+
+#buttons{
+   margin-top: 30px;
+}
+
+.buttonGroup{
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 2px 20px;
+    outline: none !important;
+    cursor: pointer;
+    background-color: #DFB788;
+    font-weight: 500;
+    border-radius: 10%;
+}
+
+/*
+ 'counterCircle' and 'counterBox' have code duplication.
+ They can be combined into a single class and made more organized.
+*/
+#counterCircle{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #D8143D;
+    text-align: center;
+    margin: 30px auto;
+    border: 3px solid whitesmoke;
+}
+
+#counterCircle p{
+    color: whitesmoke;
+    font-weight: 500;
+    line-height: 214px;
+    font-size: 50px;
+}
+
+
+#counterBox{
+    width: 220px;
+    height: 220px;
+    border-radius: 10%;
+    background-color: black;
+    text-align: center;
+    margin: 30px auto;
+    border: 3px solid whitesmoke;
+    display: none;
+}
+
+#counterBox p{
+    color: whitesmoke;
+    font-weight: 500;
+    line-height: 214px;
+    font-size: 50px;
+}
+
+#warning{
+    width: 220px;
+    height: 80px;
+    border-radius: 10%;
+    background-color: #CB0001;
+    text-align: center;
+    margin: 30px auto;
+    border: 1px solid whitesmoke;
+    display: none;
+}
+
+#warning p{
+    color: whitesmoke;
+    font-weight: 500;
+    line-height: 70px;
+    font-size: 20px;
+}
